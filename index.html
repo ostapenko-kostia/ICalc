@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iphone Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="calc">
+		<div class="calc-display">
+			<p id="output">0</p>
+		</div>
+		<div class="calc-buttons">
+			<div class="btn-firstLine">
+				<button class="calc-btn ac grey" onclick="change('ac')">AC</button>
+				<button class="calc-btn plusMinus grey">+/-</button>
+				<button class="calc-btn delete grey"><-</button>
+				<button class="calc-btn divide orange" onclick="change('/')">/</button>
+			</div>
+			<div class="btn-secondLine">
+				<button class="calc-btn seven" onclick="change(7)">7</button>
+				<button class="calc-btn eight" onclick="change(8)">8</button>
+				<button class="calc-btn nine" onclick="change(9)">9</button>
+				<button class="calc-btn x orange" onclick="change('x')">X</button>
+			</div>
+			<div class="btn-thirdLine">
+				<button class="calc-btn four" onclick="change(4)">4</button>
+				<button class="calc-btn five" onclick="change(5)">5</button>
+				<button class="calc-btn six" onclick="change(6)">6</button>
+				<button class="calc-btn minus orange" onclick="change('-')">-</button>
+			</div>
+			<div class="btn-fourthLine">
+				<button class="calc-btn one" onclick="change(1)">1</button>
+				<button class="calc-btn two" onclick="change(2)">2</button>
+				<button class="calc-btn three" onclick="change(3)">3</button>
+				<button class="calc-btn plus orange" onclick="change('+')">+</button>
+			</div>
+			<div class="btn-fifthLine">
+				<button class="calc-btn zero" onclick="change(0)">0</button>
+				<button class="calc-btn dot">.</button>
+				<button class="calc-btn equal orange" onclick="change('=')">=</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
