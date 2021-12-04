@@ -2,8 +2,9 @@ function change(value) {
 	var a, b;
 	var what;
 	var c;
+	document.getElementById("output").innerHTML += value;
 	if (!value == "+" && !value == "x" && !value == "/" && !value == "-") {
-		a = document.getElementById("output").innerHTML += value;
+		a = document.getElementById("output").innerHTML;
 	}
 	if (value == "+") {
 		what = "+";
@@ -21,7 +22,7 @@ function change(value) {
 		what = "/";
 		console.log(value);
 	}
-	b = document.getElementById("output").innerHTML += value;
+	b = document.getElementById("output").innerHTML;
 	if (value == "=") {
 		console.log(what);
 		if (what == "+") {
