@@ -70,6 +70,7 @@
 	user-select: none;
 	font-size: 70px;
 	margin-top: 10px;
+	overflow: hidden;
 }
 
 .calc-display {
@@ -77,6 +78,10 @@
 	padding-right: 35px;
 	margin-bottom: 20px;
 	padding-top: 20px;
+}
+
+#output {
+	margin-top: 50px;
 }
 
 @media (max-width: 425px) {
